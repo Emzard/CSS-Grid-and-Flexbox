@@ -1,0 +1,92 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+header {
+  background-color: rgb(28, 27, 27);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  margin: auto;
+}
+
+main {
+  padding: 30px;
+  width: 50%;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+h2 {
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+}
+
+button {
+  padding: 15px;
+}
+
+.button1 {
+  border: transparent;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 10%;
+  color: hsl(31, 77%, 52%);
+}
+
+.button2 {
+  border: transparent;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 10%;
+  color: hsl(184, 100%, 22%);
+}
+
+.button3 {
+  border: transparent;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 10%;
+  color: hsl(179, 100%, 13%);
+}
+
+.button1:hover {
+  background-color: transparent;
+  color: white;
+  border: solid white;
+}
+
+.button2:hover {
+  background-color: transparent;
+  color: white;
+  border: solid white;
+}
+
+.button3:hover {
+  background-color: transparent;
+  color: white;
+  border: solid white;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  padding: 2em;
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+  padding: 2em;
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  padding: 2em;
+}
+
+p {
+  font-size: 15px;
+}
